@@ -166,3 +166,28 @@ main {
   font-family: "Inter";
   font-size: 10px;
 }
+/* section 4 design */
+.sec4 {
+  margin-top: 100px;
+  margin-bottom: 60px;
+  padding: 30px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sec4in {
+  width: 980px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.s4head {
+  font-size: 50px;
+}
+.sec4in img {
+  width: 80%;
+  border-radius: 48px;
+}
+/* section 5 */
