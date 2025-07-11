@@ -18,6 +18,12 @@ body {
   border: none;
   border-radius: 10px;
   cursor: pointer;
+  transition: 0.07s;
+}
+.primary-btn:hover {
+  background: #ffb805;
+  color: #1e1e1e;
+  transform: scale(1.1);
 }
 .pri-head {
   font-size: 42px;
@@ -200,6 +206,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 /* form design */
 .form {
@@ -241,4 +248,36 @@ input[type="submit"] {
   margin-top: 10px;
   background-color: #4e47ff;
   font-size: 0.85rem;
+}
+.mainFooter {
+  text-align: center;
+  margin-top: 80px;
+  padding: 40px 0px;
+}
+#footerLogo h3 {
+  font-size: 100px;
+  font-family: "Inter";
+  color: #4e47ff;
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+#footerLogo p {
+  color: #8987a1;
+  font-family: "inter";
+  font-weight: 400;
+}
+.footnav ul {
+  margin-top: 20px;
+}
+.footnav ul li {
+  display: inline;
+  list-style: none;
+  margin: 10px 24px;
+}
+.footnav ul li a {
+  text-decoration: none;
+  color: #8987a1;
+  padding: 12px 10px;
+  font-family: "Inter";
+  font-weight: 600;
 }
