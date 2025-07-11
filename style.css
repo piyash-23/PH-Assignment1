@@ -190,4 +190,55 @@ main {
   width: 80%;
   border-radius: 48px;
 }
-/* section 5 */
+/* footer */
+footer {
+  width: 1140px;
+  margin: 0px auto;
+}
+.innerFooter {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* form design */
+.form {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footHead {
+  font-size: 97px;
+}
+.email,
+.userName,
+.message {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+input[type="email"],
+input[type="text"],
+textarea {
+  width: 370px;
+  border: 1px solid #d6dded;
+  padding: 10px 17px;
+  margin-top: 5px;
+  outline: none;
+  font-family: "inter";
+  font-weight: 500;
+  border-radius: 10px;
+}
+label {
+  font-family: "Inter";
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+input[type="submit"] {
+  width: 100%;
+  display: block;
+  margin-top: 10px;
+  background-color: #4e47ff;
+  font-size: 0.85rem;
+}
