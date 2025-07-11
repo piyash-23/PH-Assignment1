@@ -261,6 +261,7 @@ input[type="submit"] {
   color: #4e47ff;
   font-weight: 800;
   margin-bottom: 30px;
+  cursor: pointer;
 }
 #footerLogo p {
   color: #8987a1;
